@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+    <link rel="stylesheet" href="/style.css">
+    <title>New Year Countdown 2025</title>
+    <script src="https://cdn.jsdelivr.net/npm/fireworks-js/dist/fireworks.min.js"></script>
+    <script defer src="fireworks-config.js"></script>
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <script src="/particles.min.js"></script>
+    <script>
+        particlesJS.load("particles-js", "/particles-config.json", function() {
+            console.log("callback - particles.js config loaded");
+        });
+    </script>
+    <div id="countdown-container">
+        <p id="timer">
+            <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+        </p>
+    </div>
+    <div id="end-text-container">
+        <p id="end-text">
+            HAPPY NEW YEAR
+            <br>
+            <span id="year"></span>
+        </p>
+    </div>
+</body>
+</html>
