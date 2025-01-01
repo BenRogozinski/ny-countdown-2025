@@ -11,7 +11,7 @@ const fireworksConfig = {
     acceleration: 1.02,
     friction: 0.97,
     gravity: 1.5,
-    particles: 60,
+    particles: 100,
     explosion: 5,
     mouse: {
       click: false,
@@ -42,7 +42,7 @@ const fireworksConfig = {
       max: 40
     },
     brightness: {
-      min: 50,
+      min: 60,
       max: 80
     },
     decay: {
