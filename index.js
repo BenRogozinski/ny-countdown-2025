@@ -17,6 +17,7 @@ let currentSoundIndex = 0;
 
 function playNextSound() {
     const currentSound = sounds[currentSoundIndex];
+    currentSound.currentTime = 0;
 
     currentSound.onended = () => {
         currentSoundIndex = (currentSoundIndex + 1) % sounds.length;
